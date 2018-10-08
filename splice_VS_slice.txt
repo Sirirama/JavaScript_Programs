@@ -15,4 +15,5 @@ and ends at, but does not include, the given end argument.
 
 The slice() method does not change the original array, that means immutable.
 
+Syntax: array.slice(startIndex, endIndex)
 
