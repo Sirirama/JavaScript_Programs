@@ -1,0 +1,18 @@
+What is the difference between splice and slice in JavaScript ?
+
+The splice() method adds/removes items to/from an array, and it returns the
+item(s) removed.
+
+The splice() method changes the original array, that means mutable.
+
+Syntax: array.splice(index, howmany, item1, item2....itemn)
+
+The slice() method returns the selected elements from an array, as a new array
+object.
+
+The slice() method selects the elements starting at the given start argument,
+and ends at, but does not include, the given end argument.
+
+The slice() method does not change the original array, that means immutable.
+
+
